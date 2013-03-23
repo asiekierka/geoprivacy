@@ -30,8 +30,8 @@
     if(in_array($country,$country_1)) $country_val = 1;
     if(in_array($country,$country_0)) $country_val = 0;
   }
-  print("{ 'country': '".$country."', 'mode': ".$country_val.", ");
-  print("'detailed_information': ".(in_array($country,$country_di)?"true":"false").", ");
-  print("'opt_out': ".(in_array($country,$country_oo)?"true":"false").", ");
-  print("'session_allowed': ".(in_array($country,$country_sa)?"true":"false")." }");
+  print("{ \"country\": \"".$country."\", \"mode\": ".$country_val.", ");
+  print("\"detailed_information\": ".(in_array($country,$country_di)?"true":"false").", ");
+  print("\"opt_out\": ".(in_array($country,$country_oo)?"true":"false").", ");
+  print("\"session_allowed\": ".(in_array($country,$country_sa)?"true":"false")." }");
 ?>
