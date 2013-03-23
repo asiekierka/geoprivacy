@@ -1,0 +1,11 @@
+This is a very simple PHP script I wrote for complying with the e-Privacy directive.
+
+Modes:
+* 2 - explicit consent necessary (button)
+* 1 - information only (detailed if detailed_information set)
+* 0 - no consent necessary, opt-out necessary if opt_out set
+
+Based on:
+* http://www.dlapiper.com/files/Publication/c12bf543-f878-420b-b05d-90a25022df07/Presentation/PublicationAttachment/8384fccd-731f-4c7b-ac70-95ca52e0fb68/EU_cookies_update_October_2012.pdf
+* own observations (German websites)
+
