@@ -32,6 +32,5 @@
   print("{ country: '".$country."', mode: ".$country_val.", ");
   print("detailed_information: ".(in_array($country,$country_di)?"true":"false").", ");
   print("opt_out: ".(in_array($country,$country_oo)?"true":"false").", ");
-  print("browser_settings: ".(in_array($country,$country_bs)?"true":"false").", ");
   print("session_allowed: ".(in_array($country,$country_sa)?"true":"false")." }");
 ?>
