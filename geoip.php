@@ -1,4 +1,5 @@
 <?php
+  header("Content-type: application/json");
   if(!function_exists('geoip_country_code_by_name') || strlen($_GET["country"])==2) $country = $_GET["country"];
   else $country = geoip_country_code_by_name($_SERVER["REMOTE_ADDR"]);
   $eu_countries = array("AT","BE","BG","CY","CZ","DE","DK","EE","ES","FI","FR","GB","GR",
